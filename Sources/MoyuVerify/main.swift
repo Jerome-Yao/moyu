@@ -108,4 +108,19 @@ let encoded = try ConfigurationJSON.encode(ConfigurationDocument(
 let decoded = try ConfigurationJSON.decode(encoded)
 precondition(decoded.configuration == configuration)
 
-print("MoyuCore verification passed: calendar, income, holidays, retirement, savings, JSON")
+let bundled2026 = try BundledHolidayLoader.load(year: 2026)
+precondition(bundled2026?.days.count == 39)
+
+let verificationDirectory = FileManager.default.temporaryDirectory
+    .appending(path: "moyu-verification-\(UUID().uuidString)", directoryHint: .isDirectory)
+let configurationStore = ConfigurationStore(directory: verificationDirectory)
+try await configurationStore.save(configuration)
+let loadedConfiguration = try await configurationStore.load()
+precondition(loadedConfiguration == configuration)
+let exported = try await configurationStore.exportData()
+let exportedConfiguration = try ConfigurationJSON.decode(exported).configuration
+precondition(exportedConfiguration == configuration)
+try await configurationStore.clear()
+try? FileManager.default.removeItem(at: verificationDirectory)
+
+print("MoyuCore verification passed: calendar, income, holidays, retirement, savings, stores")

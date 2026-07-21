@@ -13,7 +13,10 @@ let package = Package(
         .executable(name: "MoyuVerify", targets: ["MoyuVerify"])
     ],
     targets: [
-        .target(name: "MoyuCore"),
+        .target(
+            name: "MoyuCore",
+            resources: [.process("Resources")]
+        ),
         .executableTarget(name: "MoyuVerify", dependencies: ["MoyuCore"])
     ]
 )
