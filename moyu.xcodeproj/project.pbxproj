@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300C66158BAAA3D6EED24567 /* moyuWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 79E3D7A6F3318637EA5179D0 /* moyuWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		40DEDC3B0E0E1EC9930A09F6 /* MoyuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2788077D185335495229CE /* MoyuApp.swift */; };
+		4503CE7CDD39D91F903E44A2 /* MoyuFileDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057762D5DC3E20773858ADA2 /* MoyuFileDocument.swift */; };
+		515BD827B6E115D0888BD521 /* MoyuWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF240DD316B1808812FB323C /* MoyuWidgets.swift */; };
+		531ACF375195815B8F1ED3CE /* Editors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789AF6A87F85794E12309338 /* Editors.swift */; };
+		5722A313FD418822E01B3703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1ED77083B9FE2E65BBC12D /* Assets.xcassets */; };
+		6657591D2EE41AE34F9EC8FA /* MoyuTimelineProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F15B6F5385ABEE2B2E2118 /* MoyuTimelineProvider.swift */; };
+		6B6F9E1A2DD6A250000F9D1C /* MoyuWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B136244F767B93371ED8C /* MoyuWidgetView.swift */; };
+		77AD9ED2B6FF27A3DF5E23E9 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598C87AA6450D5FC5BF5CE49 /* DesignSystem.swift */; };
+		A12231633EC2B39E5838B671 /* MoyuCore in Frameworks */ = {isa = PBXBuildFile; productRef = A66B95537BF1270602890C35 /* MoyuCore */; };
+		B306904D1136C8DB82453900 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA984218B339D18573C385C /* AppModel.swift */; };
+		B8C20431B137DD713E00BED0 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8565A84B05CA1CE0CC1FCF50 /* OnboardingView.swift */; };
+		C79CDE5B614BD61F718FC062 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4E3D918942CE8DBB62E883 /* HomeView.swift */; };
+		CEB65E1460DA4388A30DE257 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB6F9C90835A895E356EA00 /* AppRootView.swift */; };
+		E3747CA6DA3C1EE593D1D6EF /* MoyuCore in Frameworks */ = {isa = PBXBuildFile; productRef = FB4751F1385E3B37648F6AC9 /* MoyuCore */; };
+		EDF56CEF8FCA573404EB0E13 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6943F90E6EEFB8D10F652B36 /* SettingsView.swift */; };
+		FA27234738FA842F04B2D18D /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03760764E6DEEF6927433BCE /* SavingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F2B93BC235D6931FC2D83B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB66123B7AC0CB415848ECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6066BF766DD97B504A39E115;
+			remoteInfo = moyuWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0F6A156DCF0F4555CBB1197 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				300C66158BAAA3D6EED24567 /* moyuWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03760764E6DEEF6927433BCE /* SavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsView.swift; sourceTree = "<group>"; };
+		057762D5DC3E20773858ADA2 /* MoyuFileDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuFileDocument.swift; sourceTree = "<group>"; };
+		287B136244F767B93371ED8C /* MoyuWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuWidgetView.swift; sourceTree = "<group>"; };
+		4CA984218B339D18573C385C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		4FE06B7DAD480F7C3EED5185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		598C87AA6450D5FC5BF5CE49 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		5E2788077D185335495229CE /* MoyuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuApp.swift; sourceTree = "<group>"; };
+		6656871C673188078412E6C4 /* moyuWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = moyuWidgets.entitlements; sourceTree = "<group>"; };
+		6943F90E6EEFB8D10F652B36 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6F4E3D918942CE8DBB62E883 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		789AF6A87F85794E12309338 /* Editors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editors.swift; sourceTree = "<group>"; };
+		79E3D7A6F3318637EA5179D0 /* moyuWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = moyuWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8565A84B05CA1CE0CC1FCF50 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8614ED8C759327057EDD234F /* moyu */ = {isa = PBXFileReference; lastKnownFileType = folder; name = moyu; path = .; sourceTree = SOURCE_ROOT; };
+		8656918A317A13C25DD62FA2 /* moyu.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = moyu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95F15B6F5385ABEE2B2E2118 /* MoyuTimelineProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuTimelineProvider.swift; sourceTree = "<group>"; };
+		BB1ED77083B9FE2E65BBC12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF240DD316B1808812FB323C /* MoyuWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuWidgets.swift; sourceTree = "<group>"; };
+		BF42DDBF00D3EEE887D28804 /* moyu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = moyu.entitlements; sourceTree = "<group>"; };
+		ECB6F9C90835A895E356EA00 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59B1EA280DC64F2E5129E516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3747CA6DA3C1EE593D1D6EF /* MoyuCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC5587935C0B2D5C9962844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12231633EC2B39E5838B671 /* MoyuCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02DA7AC30296ACE1464F6A63 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				8614ED8C759327057EDD234F /* moyu */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		20A70CA5972E05709555ED79 = {
+			isa = PBXGroup;
+			children = (
+				D6F0F2D8A125917108CCF648 /* App */,
+				02DA7AC30296ACE1464F6A63 /* Packages */,
+				4724AE46B16A3295AED4AC22 /* Widgets */,
+				613A4C891391D2D028E45EFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4724AE46B16A3295AED4AC22 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				4FE06B7DAD480F7C3EED5185 /* Info.plist */,
+				95F15B6F5385ABEE2B2E2118 /* MoyuTimelineProvider.swift */,
+				6656871C673188078412E6C4 /* moyuWidgets.entitlements */,
+				BF240DD316B1808812FB323C /* MoyuWidgets.swift */,
+				287B136244F767B93371ED8C /* MoyuWidgetView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		613A4C891391D2D028E45EFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8656918A317A13C25DD62FA2 /* moyu.app */,
+				79E3D7A6F3318637EA5179D0 /* moyuWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F0F2D8A125917108CCF648 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4CA984218B339D18573C385C /* AppModel.swift */,
+				ECB6F9C90835A895E356EA00 /* AppRootView.swift */,
+				BB1ED77083B9FE2E65BBC12D /* Assets.xcassets */,
+				598C87AA6450D5FC5BF5CE49 /* DesignSystem.swift */,
+				789AF6A87F85794E12309338 /* Editors.swift */,
+				6F4E3D918942CE8DBB62E883 /* HomeView.swift */,
+				BF42DDBF00D3EEE887D28804 /* moyu.entitlements */,
+				5E2788077D185335495229CE /* MoyuApp.swift */,
+				057762D5DC3E20773858ADA2 /* MoyuFileDocument.swift */,
+				8565A84B05CA1CE0CC1FCF50 /* OnboardingView.swift */,
+				03760764E6DEEF6927433BCE /* SavingsView.swift */,
+				6943F90E6EEFB8D10F652B36 /* SettingsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29C009EB278179C6A432687A /* moyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8543267B28CDCECE2EBC4EF /* Build configuration list for PBXNativeTarget "moyu" */;
+			buildPhases = (
+				D57670331628100A421C5F73 /* Sources */,
+				256D29D62B6467E6BBCFA1DA /* Resources */,
+				CDC5587935C0B2D5C9962844 /* Frameworks */,
+				A0F6A156DCF0F4555CBB1197 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21E2146D71820E0F9C4682B7 /* PBXTargetDependency */,
+			);
+			name = moyu;
+			packageProductDependencies = (
+				A66B95537BF1270602890C35 /* MoyuCore */,
+			);
+			productName = moyu;
+			productReference = 8656918A317A13C25DD62FA2 /* moyu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6066BF766DD97B504A39E115 /* moyuWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7235F7C4982C9AE96863F928 /* Build configuration list for PBXNativeTarget "moyuWidgets" */;
+			buildPhases = (
+				979D062AA547E3D13B861435 /* Sources */,
+				59B1EA280DC64F2E5129E516 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moyuWidgets;
+			packageProductDependencies = (
+				FB4751F1385E3B37648F6AC9 /* MoyuCore */,
+			);
+			productName = moyuWidgets;
+			productReference = 79E3D7A6F3318637EA5179D0 /* moyuWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB66123B7AC0CB415848ECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					29C009EB278179C6A432687A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					6066BF766DD97B504A39E115 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6F2199473ABE1FF1E74AA78 /* Build configuration list for PBXProject "moyu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 20A70CA5972E05709555ED79;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DA46F5A0D143529749A3A58F /* XCLocalSwiftPackageReference "." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 613A4C891391D2D028E45EFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C009EB278179C6A432687A /* moyu */,
+				6066BF766DD97B504A39E115 /* moyuWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256D29D62B6467E6BBCFA1DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5722A313FD418822E01B3703 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979D062AA547E3D13B861435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6657591D2EE41AE34F9EC8FA /* MoyuTimelineProvider.swift in Sources */,
+				6B6F9E1A2DD6A250000F9D1C /* MoyuWidgetView.swift in Sources */,
+				515BD827B6E115D0888BD521 /* MoyuWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57670331628100A421C5F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B306904D1136C8DB82453900 /* AppModel.swift in Sources */,
+				CEB65E1460DA4388A30DE257 /* AppRootView.swift in Sources */,
+				77AD9ED2B6FF27A3DF5E23E9 /* DesignSystem.swift in Sources */,
+				531ACF375195815B8F1ED3CE /* Editors.swift in Sources */,
+				C79CDE5B614BD61F718FC062 /* HomeView.swift in Sources */,
+				40DEDC3B0E0E1EC9930A09F6 /* MoyuApp.swift in Sources */,
+				4503CE7CDD39D91F903E44A2 /* MoyuFileDocument.swift in Sources */,
+				B8C20431B137DD713E00BED0 /* OnboardingView.swift in Sources */,
+				FA27234738FA842F04B2D18D /* SavingsView.swift in Sources */,
+				EDF56CEF8FCA573404EB0E13 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21E2146D71820E0F9C4682B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6066BF766DD97B504A39E115 /* moyuWidgets */;
+			targetProxy = 4F2B93BC235D6931FC2D83B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		143170DCE59A54EEDBA5DFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widgets/moyuWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysq.moyu.widgets;
+				PRODUCT_NAME = moyuWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		352CCCFF5184DE32458A6709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/moyu.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = moyu;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysq.moyu;
+				PRODUCT_NAME = moyu;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4635D13C391059D7DE9B3270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		888EADE5710EC3FC019F064F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/moyu.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = moyu;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysq.moyu;
+				PRODUCT_NAME = moyu;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F04CEE616AEEE18FF0227147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widgets/moyuWidgets.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysq.moyu.widgets;
+				PRODUCT_NAME = moyuWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F12CE39E8E3FDE90AF73EC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7235F7C4982C9AE96863F928 /* Build configuration list for PBXNativeTarget "moyuWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04CEE616AEEE18FF0227147 /* Debug */,
+				143170DCE59A54EEDBA5DFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6F2199473ABE1FF1E74AA78 /* Build configuration list for PBXProject "moyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4635D13C391059D7DE9B3270 /* Debug */,
+				F12CE39E8E3FDE90AF73EC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C8543267B28CDCECE2EBC4EF /* Build configuration list for PBXNativeTarget "moyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352CCCFF5184DE32458A6709 /* Debug */,
+				888EADE5710EC3FC019F064F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		DA46F5A0D143529749A3A58F /* XCLocalSwiftPackageReference "." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = .;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A66B95537BF1270602890C35 /* MoyuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MoyuCore;
+		};
+		FB4751F1385E3B37648F6AC9 /* MoyuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MoyuCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8BB66123B7AC0CB415848ECF /* Project object */;
+}

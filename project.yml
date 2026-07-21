@@ -1,0 +1,76 @@
+name: moyu
+
+options:
+  bundleIdPrefix: com.ysq
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    CURRENT_PROJECT_VERSION: 1
+    MARKETING_VERSION: 0.1.0
+    LOCALIZATION_PREFERS_STRING_CATALOGS: true
+
+packages:
+  MoyuCore:
+    path: .
+
+targets:
+  moyu:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+    dependencies:
+      - package: MoyuCore
+        product: MoyuCore
+      - target: moyuWidgets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ysq.moyu
+        PRODUCT_NAME: moyu
+        INFOPLIST_KEY_CFBundleDisplayName: moyu
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.productivity
+        INFOPLIST_KEY_UILaunchScreen_Generation: true
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: true
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: false
+        TARGETED_DEVICE_FAMILY: 1
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_ENTITLEMENTS: App/moyu.entitlements
+        GENERATE_INFOPLIST_FILE: true
+
+  moyuWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Widgets
+    dependencies:
+      - package: MoyuCore
+        product: MoyuCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ysq.moyu.widgets
+        PRODUCT_NAME: moyuWidgets
+        SKIP_INSTALL: true
+        TARGETED_DEVICE_FAMILY: 1
+        CODE_SIGN_ENTITLEMENTS: Widgets/moyuWidgets.entitlements
+        GENERATE_INFOPLIST_FILE: false
+        INFOPLIST_FILE: Widgets/Info.plist
+
+schemes:
+  moyu:
+    build:
+      targets:
+        moyu: all
+        moyuWidgets: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+    archive:
+      config: Release
