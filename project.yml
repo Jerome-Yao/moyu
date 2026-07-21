@@ -62,6 +62,19 @@ targets:
         GENERATE_INFOPLIST_FILE: false
         INFOPLIST_FILE: Widgets/Info.plist
 
+  moyuTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/MoyuCoreTests
+    dependencies:
+      - package: MoyuCore
+        product: MoyuCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ysq.moyu.tests
+        GENERATE_INFOPLIST_FILE: true
+
 schemes:
   moyu:
     build:
@@ -72,5 +85,7 @@ schemes:
       config: Debug
     test:
       config: Debug
+      targets:
+        - moyuTests
     archive:
       config: Release

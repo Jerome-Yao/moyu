@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		300C66158BAAA3D6EED24567 /* moyuWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 79E3D7A6F3318637EA5179D0 /* moyuWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3744D7D12A9E010CD3692274 /* MoyuCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471DBA1EF7A5591B271B6F90 /* MoyuCoreTests.swift */; };
 		40DEDC3B0E0E1EC9930A09F6 /* MoyuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2788077D185335495229CE /* MoyuApp.swift */; };
+		43274E5C764CA1692447E8E7 /* MoyuCore in Frameworks */ = {isa = PBXBuildFile; productRef = 17E89966CB1092CAE2D010B9 /* MoyuCore */; };
 		4503CE7CDD39D91F903E44A2 /* MoyuFileDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057762D5DC3E20773858ADA2 /* MoyuFileDocument.swift */; };
 		515BD827B6E115D0888BD521 /* MoyuWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF240DD316B1808812FB323C /* MoyuWidgets.swift */; };
 		531ACF375195815B8F1ED3CE /* Editors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789AF6A87F85794E12309338 /* Editors.swift */; };
@@ -54,6 +56,7 @@
 		03760764E6DEEF6927433BCE /* SavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsView.swift; sourceTree = "<group>"; };
 		057762D5DC3E20773858ADA2 /* MoyuFileDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuFileDocument.swift; sourceTree = "<group>"; };
 		287B136244F767B93371ED8C /* MoyuWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuWidgetView.swift; sourceTree = "<group>"; };
+		471DBA1EF7A5591B271B6F90 /* MoyuCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuCoreTests.swift; sourceTree = "<group>"; };
 		4CA984218B339D18573C385C /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		4FE06B7DAD480F7C3EED5185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		598C87AA6450D5FC5BF5CE49 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		BB1ED77083B9FE2E65BBC12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF240DD316B1808812FB323C /* MoyuWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyuWidgets.swift; sourceTree = "<group>"; };
 		BF42DDBF00D3EEE887D28804 /* moyu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = moyu.entitlements; sourceTree = "<group>"; };
+		C406900DC6EC5345EC86DD32 /* moyuTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = moyuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB6F9C90835A895E356EA00 /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +83,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3747CA6DA3C1EE593D1D6EF /* MoyuCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A107E6E7CBAD9D17C5B96A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43274E5C764CA1692447E8E7 /* MoyuCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +118,7 @@
 			children = (
 				D6F0F2D8A125917108CCF648 /* App */,
 				02DA7AC30296ACE1464F6A63 /* Packages */,
+				8CDACFF06FC9E1A53BC21BA5 /* Tests */,
 				4724AE46B16A3295AED4AC22 /* Widgets */,
 				613A4C891391D2D028E45EFF /* Products */,
 			);
@@ -127,9 +140,26 @@
 			isa = PBXGroup;
 			children = (
 				8656918A317A13C25DD62FA2 /* moyu.app */,
+				C406900DC6EC5345EC86DD32 /* moyuTests.xctest */,
 				79E3D7A6F3318637EA5179D0 /* moyuWidgets.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8CDACFF06FC9E1A53BC21BA5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C0533DDEE5A00007319A3928 /* MoyuCoreTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C0533DDEE5A00007319A3928 /* MoyuCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				471DBA1EF7A5591B271B6F90 /* MoyuCoreTests.swift */,
+			);
+			path = MoyuCoreTests;
 			sourceTree = "<group>";
 		};
 		D6F0F2D8A125917108CCF648 /* App */ = {
@@ -176,6 +206,25 @@
 			productReference = 8656918A317A13C25DD62FA2 /* moyu.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5C6259995EC978A34DD174BA /* moyuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD0A35AF569B8737B05740F /* Build configuration list for PBXNativeTarget "moyuTests" */;
+			buildPhases = (
+				88146F4DD1B45E790BB401CA /* Sources */,
+				7A107E6E7CBAD9D17C5B96A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moyuTests;
+			packageProductDependencies = (
+				17E89966CB1092CAE2D010B9 /* MoyuCore */,
+			);
+			productName = moyuTests;
+			productReference = C406900DC6EC5345EC86DD32 /* moyuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6066BF766DD97B504A39E115 /* moyuWidgets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7235F7C4982C9AE96863F928 /* Build configuration list for PBXNativeTarget "moyuWidgets" */;
@@ -208,6 +257,10 @@
 						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
+					5C6259995EC978A34DD174BA = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
 					6066BF766DD97B504A39E115 = {
 						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
@@ -233,6 +286,7 @@
 			targets = (
 				29C009EB278179C6A432687A /* moyu */,
 				6066BF766DD97B504A39E115 /* moyuWidgets */,
+				5C6259995EC978A34DD174BA /* moyuTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +303,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		88146F4DD1B45E790BB401CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3744D7D12A9E010CD3692274 /* MoyuCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		979D062AA547E3D13B861435 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +349,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		040F50EC576F384C54119871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysq.moyu.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		143170DCE59A54EEDBA5DFAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -422,6 +500,22 @@
 			};
 			name = Release;
 		};
+		BC8913E4DA428C1FD8B8B179 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysq.moyu.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F04CEE616AEEE18FF0227147 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -505,6 +599,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6FD0A35AF569B8737B05740F /* Build configuration list for PBXNativeTarget "moyuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040F50EC576F384C54119871 /* Debug */,
+				BC8913E4DA428C1FD8B8B179 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		7235F7C4982C9AE96863F928 /* Build configuration list for PBXNativeTarget "moyuWidgets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -542,6 +645,10 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		17E89966CB1092CAE2D010B9 /* MoyuCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MoyuCore;
+		};
 		A66B95537BF1270602890C35 /* MoyuCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MoyuCore;
