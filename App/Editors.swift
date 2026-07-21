@@ -48,9 +48,8 @@ struct SavingsEditor: View {
       errorMessage = "请输入有效的期初存款"
       return
     }
-    let targetValue = target.isEmpty ? nil : Decimal(string: target)
-    if let targetValue, targetValue <= 0 {
-      errorMessage = "目标存款必须大于 0"
+    guard let targetValue = Decimal(string: target), targetValue > 0 else {
+      errorMessage = "请输入大于 0 的目标存款"
       return
     }
     model.configuration.savings = SavingsPlan(
