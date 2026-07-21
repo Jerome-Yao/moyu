@@ -65,11 +65,6 @@ struct HomeView: View {
       .minimumScaleFactor(0.62)
       .lineLimit(1)
 
-      if !model.configuration.privacyModeEnabled, let snapshot {
-        Text("每秒 +\(MoyuFormat.money(snapshot.perSecondIncome, private: false))")
-          .font(.footnote.monospacedDigit())
-          .foregroundStyle(MoyuTheme.accent)
-      }
     }
     .accessibilityElement(children: .combine)
   }
