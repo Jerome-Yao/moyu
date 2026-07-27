@@ -18,3 +18,5 @@ Package.resolved
 *.moyu.json
 .env
 .env.*
+
+goal.md
